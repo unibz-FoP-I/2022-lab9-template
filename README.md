@@ -10,7 +10,7 @@ The aim is to implement a bilingual street directory, where the user enters an I
 
 At the moment, the program simply reads all lines, stores it temporarily in a `StreetData` record (defined in `street.h`), prints it, and moves on to the next line. Thus the plan is to implement the following tasks:  
 
-1. **Store ...:**Define a datatype for a linked list with street data records, and store all street data records in such a list.  
+1. **Store ...**: Define a datatype for a linked list with street data records, and store all street data records in such a list.  
   
 2. ***... and search:***: Let the user input a municipality and street name in one language, and search in the list for its translation. (You can fix one direction of translation, Italian to German or the other way around.)
 
