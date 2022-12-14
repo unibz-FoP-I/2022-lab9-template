@@ -51,7 +51,7 @@ int csv_row_to_street(char *line, StreetData *street) {
 
         // set German street name
         if (!token) return 0;
-        strncpy(street->municipality_de, token, STR_SIZE - 1);
+        strncpy(street->name_de, token, STR_SIZE - 1);
         token = next_token;
         next_token = get_next_token(token, CSV_SEP);
 
