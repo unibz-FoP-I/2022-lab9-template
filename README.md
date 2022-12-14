@@ -8,7 +8,7 @@ It can be compiled and executed as follows:
 
 The aim is to implement a bilingual street directory, where the user enters an Italian or German name of a municipality and a street, and the program outputs its translation.
 
-At the moment, the program simply reads all lines, stores it temporarily in a `StreetData` record (defined in `street.h`), prints it, and moves on to the next line. Thus the plan is to implement the following tasks:  
+At the moment, the program simply reads every line, stores it temporarily as a `StreetData` record (defined in `street.h`), prints it, and moves on to the next line. Thus, in order to implement a directory, the following is needed:  
 
 1. **Store the data:** Define a datatype for a linked list with street data records, and store all street data records in such a list.  
   
